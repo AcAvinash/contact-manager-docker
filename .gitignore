@@ -1,0 +1,46 @@
+############################
+# Environment / Secrets
+############################
+.env
+.env.*
+secrets/
+
+############################
+# Node.js (Backend + Frontend)
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+############################
+# Backend build output
+############################
+backend/dist/
+backend/build/
+
+############################
+# Frontend build output
+############################
+frontend/build/
+frontend/dist/
+
+############################
+# Docker
+############################
+*.log
+docker-compose.override.yml
+
+############################
+# OS / Editor junk
+############################
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+############################
+# Terraform / Infra (agar future mein add ho)
+############################
+.terraform/
+terraform.tfstate*
